@@ -1,0 +1,17 @@
+temple,1,RELIGION,3
+church,2,RELIGION,3
+monastery,3,RELIGION,3
+cathedral,5,RELIGION,2
+watchtower,1,MILITARY,3
+prison,2,MILITARY,3
+battlefield,3,MILITARY,3
+fortress,5,MILITARY,2
+manor,3,NOBILITY,5
+castle,4,NOBILITY,4
+palace,5,NOBILITY,3
+tavern,1,COMMERCE,5
+tradingpost,2,COMMERCE,3
+market,2,COMMERCE,4
+docks,3,COMMERCE,3
+harbor,4,COMMERCE,3
+townhall,5,COMMERCE,2

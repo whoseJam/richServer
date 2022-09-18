@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{6303826a-9fc7-404f-b9e7-4165fa3a1468}</ProjectGuid>
+    <RootNamespace>rich</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>richServer</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;_WINSOCK_DEPRECATED_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="abbot.h" />
+    <ClInclude Include="administrator.h" />
+    <ClInclude Include="alchemist.h" />
+    <ClInclude Include="architect.h" />
+    <ClInclude Include="armory.h" />
+    <ClInclude Include="autofactory.h" />
+    <ClInclude Include="bishop.h" />
+    <ClInclude Include="blackmailer.h" />
+    <ClInclude Include="building.h" />
+    <ClInclude Include="character.h" />
+    <ClInclude Include="collection.h" />
+    <ClInclude Include="communicate.h" />
+    <ClInclude Include="diplomat.h" />
+    <ClInclude Include="dragongate.h" />
+    <ClInclude Include="effect.h" />
+    <ClInclude Include="emperor.h" />
+    <ClInclude Include="friar.h" />
+    <ClInclude Include="gameflow.h" />
+    <ClInclude Include="graveyard.h" />
+    <ClInclude Include="greatwall.h" />
+    <ClInclude Include="hauntedcity.h" />
+    <ClInclude Include="keep.h" />
+    <ClInclude Include="killer.h" />
+    <ClInclude Include="king.h" />
+    <ClInclude Include="laboratory.h" />
+    <ClInclude Include="library.h" />
+    <ClInclude Include="magician.h" />
+    <ClInclude Include="magicschool.h" />
+    <ClInclude Include="marshal.h" />
+    <ClInclude Include="master.h" />
+    <ClInclude Include="merchant.h" />
+    <ClInclude Include="noble.h" />
+    <ClInclude Include="observatory.h" />
+    <ClInclude Include="observer.h" />
+    <ClInclude Include="origin" />
+    <ClInclude Include="pilot.h" />
+    <ClInclude Include="player.h" />
+    <ClInclude Include="prophet.h" />
+    <ClInclude Include="reader.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="rich.h" />
+    <ClInclude Include="skill.h" />
+    <ClInclude Include="sockbuffer.h" />
+    <ClInclude Include="spy.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="theater.h" />
+    <ClInclude Include="thief.h" />
+    <ClInclude Include="tool.h" />
+    <ClInclude Include="trader.h" />
+    <ClInclude Include="university.h" />
+    <ClInclude Include="warload.h" />
+    <ClInclude Include="witch.h" />
+    <ClInclude Include="workshop.h" />
+    <ClInclude Include="scholar.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="abbot.cpp" />
+    <ClCompile Include="administrator.cpp" />
+    <ClCompile Include="alchemist.cpp" />
+    <ClCompile Include="architect.cpp" />
+    <ClCompile Include="bishop.cpp" />
+    <ClCompile Include="blackmailer.cpp" />
+    <ClCompile Include="communicate.cpp" />
+    <ClCompile Include="diplomat.cpp" />
+    <None Include="debug">
+      <FileType>Document</FileType>
+    </None>
+    <ClCompile Include="dragongate.cpp" />
+    <ClCompile Include="emperor.cpp" />
+    <ClCompile Include="friar.cpp" />
+    <ClCompile Include="gameflow.cpp" />
+    <ClCompile Include="graveyard.cpp" />
+    <ClCompile Include="greatwall.cpp" />
+    <ClCompile Include="hauntedcity.cpp" />
+    <ClCompile Include="keep.cpp" />
+    <ClCompile Include="killer.cpp" />
+    <ClCompile Include="king.cpp" />
+    <ClCompile Include="laboratory.cpp" />
+    <ClCompile Include="library.cpp" />
+    <ClCompile Include="magician.cpp" />
+    <ClCompile Include="magicschool.cpp" />
+    <ClCompile Include="marshal.cpp" />
+    <ClCompile Include="master.cpp" />
+    <ClCompile Include="merchant.cpp" />
+    <ClCompile Include="noble.cpp" />
+    <ClCompile Include="observatory.cpp" />
+    <ClCompile Include="pilot.cpp" />
+    <ClCompile Include="player.cpp" />
+    <ClCompile Include="prophet.cpp" />
+    <ClCompile Include="reader.cpp" />
+    <ClCompile Include="scholar.cpp" />
+    <ClCompile Include="skill.cpp" />
+    <ClCompile Include="sockbuffer.cpp" />
+    <ClCompile Include="building.cpp" />
+    <ClCompile Include="spy.cpp" />
+    <ClCompile Include="thief.cpp" />
+    <ClCompile Include="threater.cpp" />
+    <ClCompile Include="tool.cpp" />
+    <ClCompile Include="character.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="trader.cpp" />
+    <ClCompile Include="university.cpp" />
+    <ClCompile Include="warload.cpp" />
+    <ClCompile Include="observer.cpp" />
+    <ClCompile Include="workshop.cpp" />
+    <ClCompile Include="witch.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="rich.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="rich.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="cards.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,347 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="rich.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="building.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="character.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="skill.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="gameflow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="killer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="thief.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="magician.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="king.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="abbot.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="trader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="architect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="warload.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="effect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="communicate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="reader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sockbuffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="armory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="library.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="dragongate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="graveyard.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="observer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="collection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="hauntedcity.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="magicschool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="laboratory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="workshop.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="observatory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="university.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="keep.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="greatwall.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="autofactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="origin">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="witch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="spy.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="master.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="emperor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="friar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="alchemist.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pilot.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="diplomat.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="administrator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="blackmailer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="prophet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="noble.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bishop.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="merchant.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="scholar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="marshal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="theater.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="building.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="skill.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="character.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="gameflow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="killer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="thief.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="magician.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="king.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="abbot.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="trader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="architect.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="warload.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="communicate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="reader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sockbuffer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="library.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dragongate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="observer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="graveyard.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="hauntedcity.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="magicschool.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="laboratory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="workshop.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="observatory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="university.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="keep.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="greatwall.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="witch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="spy.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="master.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="emperor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="friar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="alchemist.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pilot.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="diplomat.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="administrator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="blackmailer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="prophet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="noble.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bishop.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="merchant.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="scholar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="marshal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="threater.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="rich.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="rich.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="cards.txt">
+      <Filter>资源文件</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="debug">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+</Project>

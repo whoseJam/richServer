@@ -1,0 +1,2 @@
+C:\Users\27670\source\repos\rich\x64\Debug\rich.exe
+C:\Users\27670\source\repos\richServer\x64\Debug\richServer.exe
